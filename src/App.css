@@ -33,6 +33,20 @@ body {
   grid-template-columns: 34rem 44rem;
   column-gap: 4rem;
   align-items: start;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: -90px;
+}
+
+.title h1 {
+  font-size: 40px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
 }
 
 .button {

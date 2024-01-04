@@ -65,6 +65,9 @@ function App() {
 
   return (
     <div className='app'>
+      <div className='title'>
+        <h1>Split the Bill</h1>
+      </div>
       <div className='sidebar'>
         <FriendsList
           friends={friends}
